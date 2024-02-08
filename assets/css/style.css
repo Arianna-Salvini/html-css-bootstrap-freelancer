@@ -41,10 +41,15 @@
     height: 200px;
 }
 /* Main */
-.portfolio_title {
+.portfolio_title,
+.about_title {
     justify-content: center;
     align-items: center;
 }
 .portfolio .row{
     margin: 3rem auto;
+}
+
+.about_download{
+    justify-content: center;
 }
