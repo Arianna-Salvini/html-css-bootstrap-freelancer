@@ -52,12 +52,19 @@
     background-color: blue;
     height: 100%;
 }
+
+
 /* Main */
+.card{
+    color: white;
+}
 .header,
 .jumbotron,
 .about,
 .footer,
-.card{
+.about_text,
+.footer_info.card
+{
     color: white;
 }
 .portfolio_title {
