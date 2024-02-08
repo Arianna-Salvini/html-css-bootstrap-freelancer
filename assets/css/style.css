@@ -1,0 +1,26 @@
+/* debug */
+.debug{
+    border: 1px dashed;
+}
+
+.debug.header{
+    background-color: paleturquoise;
+    height: 90px;
+}
+
+.debug.main{
+    background-color: palegreen;
+    height: 700px;
+
+}
+
+.debug.footer{
+    background-color: palegoldenrod;
+    height: 300px;
+}
+
+.debug[class^="container"]{
+    height: 100%;
+    background-color: rgba(0, 0, 139, 0.282);
+}
+
