@@ -1,55 +1,70 @@
 /* debug */
-.debug{
+.debug {
     border: 1px dashed;
 }
 
-.debug.header{
+.debug.header {
     background-color: paleturquoise;
     height: 90px;
 }
 
-.debug.main{
+.debug.main {
     background-color: palegreen;
 }
 
-.debug.footer{
+.debug.footer {
     background-color: palegoldenrod;
     height: 300px;
 }
 
-.debug.jumbotron{
+.debug.jumbotron {
     height: 490px;
     background-color: green;
 }
 
-.debug[class^="container"]{
+.debug[class^="container"] {
     height: 100%;
     background-color: rgba(0, 0, 139, 0.282);
 }
 
-.debug.portfolio{
+.debug.portfolio {
     background-color: aliceblue;
 }
 
-.debug.card{
+.debug.card {
     height: 370px;
     background-color: aqua;
     border: 1px dotted;
 }
 
-.debug.portfolio_title{
+.debug.portfolio_title {
     height: 200px;
 }
+.debug.contact{
+    background-color: cadetblue;
+}
+
+.debug.form{
+    height: 380px;
+    background-color: rgba(137, 43, 226, 0.275);
+}
+
+
 /* Main */
-.portfolio_title,
-.about_title {
+.portfolio_title {
     justify-content: center;
     align-items: center;
 }
-.portfolio .row{
+
+.portfolio .row {
     margin: 3rem auto;
 }
 
-.about_download{
+.about_title .contact_title {
     justify-content: center;
+}
+
+.about_download {
+    justify-content: center;
+    align-items: center;
 }
