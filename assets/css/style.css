@@ -10,8 +10,6 @@
 
 .debug.main{
     background-color: palegreen;
-    height: 700px;
-
 }
 
 .debug.footer{
@@ -19,8 +17,34 @@
     height: 300px;
 }
 
+.debug.jumbotron{
+    height: 490px;
+    background-color: green;
+}
+
 .debug[class^="container"]{
     height: 100%;
     background-color: rgba(0, 0, 139, 0.282);
 }
 
+.debug.portfolio{
+    background-color: aliceblue;
+}
+
+.debug.card{
+    height: 370px;
+    background-color: aqua;
+    border: 1px dotted;
+}
+
+.debug.portfolio_title{
+    height: 200px;
+}
+/* Main */
+.portfolio_title {
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .row{
+    margin: 3rem auto;
+}
