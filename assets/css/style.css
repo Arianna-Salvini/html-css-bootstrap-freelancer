@@ -53,6 +53,13 @@
     height: 100%;
 }
 /* Main */
+.header,
+.jumbotron,
+.about,
+.footer,
+.card{
+    color: white;
+}
 .portfolio_title {
     justify-content: center;
     align-items: center;
@@ -62,8 +69,9 @@
     margin: 3rem auto;
 }
 
-.about_title .contact_title {
-    justify-content: center;
+.about_title, 
+.form_title {
+  justify-content: center;
 }
 
 .about_download {
@@ -72,10 +80,6 @@
 }
 
 /* Footer */
-
-.footer{
-    color: white;
-}
 
 .footer_bottom{
     color: white;
