@@ -29,6 +29,10 @@
     color: var(--fr-primary-dark);
 }
 
+.color_secondary{
+    color: var(--fr-secondary);
+}
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -36,34 +40,6 @@
 h1{
     font-size: 1rem;
 }
-
-/* debug */
-.debug {
-    border: 1px dashed;
-}
-
-.debug.footer {
-    background-color: rgb(0, 37, 41);
-}
-
-
-
-
-.debug.contact{
-    background-color: cadetblue;
-}
-
-.debug.form{
-    height: 380px;
-    background-color: rgba(137, 43, 226, 0.275);
-}
-
-.debug .footer_info.card{
-    background-color: blue;
-    height: 100%;
-}
-
-
 
 /* Main */
 .card{
@@ -133,6 +109,37 @@ textarea {
 
 /* Footer */
 
+.footer_info{
+    text-align: center;
+
+    & a{
+        text-decoration: none;
+    }
+}
+
+.social_icon{
+    width: 100%;
+    padding: 1rem;
+    padding:0.5rem 0;
+
+    .row {
+        justify-content: space-evenly;
+    }
+}
+
+.footer_info .col-3{
+    width: 4rem;
+    height: 4rem;
+    margin:0 0.3rem;
+    line-height: 4rem;
+    border: 1px solid var(--fr-lighter);
+    border-radius: 50%;
+
+    & i{
+        font-size: 1.5rem;
+    }
+}
+   
 .footer_bottom{
     color: white;
     text-align: center;
