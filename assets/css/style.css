@@ -38,10 +38,6 @@
     border: 1px dashed;
 }
 
-.debug.header {
-    background-color: paleturquoise;
-    height: 90px;
-}
 
 .debug.main {
     background-color: palegreen;
@@ -52,8 +48,7 @@
 }
 
 .debug.jumbotron {
-    height: 490px;
-    background-color: green;
+    min-height: 490px;
 }
 
 .debug[class^="container"] {
@@ -93,6 +88,7 @@
 .card{
     color: white;
 }
+
 .header,
 .jumbotron,
 .about,
@@ -102,6 +98,17 @@
 {
     color: white;
 }
+.jumbotron{
+    text-align: center;
+}
+
+.img_box{
+    width: 50%;
+    margin: auto;
+}
+
+
+
 .portfolio_title {
     justify-content: center;
     align-items: center;
