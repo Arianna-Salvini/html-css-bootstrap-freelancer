@@ -109,13 +109,17 @@ h1{
  text-align: center;
 }
 
-.about_text_left{
-    padding-left: 2rem;
+@media screen and (min-width: 768px) {
+    
+    .about_text_left_md{
+        padding-left: 2rem;
+    }
+    
+    .about_text_right_md{
+        padding-right: 2rem;
+    }
 }
 
-.about_text_right{
-    padding-right: 2rem;
-}
 
 .about_download {
     justify-content: center;
