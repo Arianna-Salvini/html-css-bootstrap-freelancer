@@ -110,6 +110,37 @@ h1{
  text-align: center;
 }
 
+.about_download {
+    justify-content: center;
+    align-items: center;
+}
+
+[type=submit]:not(:disabled){
+   background-color: var(--fr-secondary);
+}
+
+#Message{
+    width: 100%;
+    border-color: lightgrey;
+}
+
+.container input,
+textarea {
+    border:none;
+    border-radius: 0;
+    border-bottom: 1px solid lightgray;
+}
+
+/* Footer */
+
+.footer_bottom{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.237);
+}
+
+/* Media queary */
+
 @media screen and (min-width: 768px) {
     
     .about_text_left_md{
@@ -119,18 +150,4 @@ h1{
     .about_text_right_md{
         padding-right: 2rem;
     }
-}
-
-
-.about_download {
-    justify-content: center;
-    align-items: center;
-}
-
-/* Footer */
-
-.footer_bottom{
-    color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.237);
 }
