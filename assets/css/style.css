@@ -1,3 +1,38 @@
+:root{
+    --fr-primary-dark:#2c3e50;
+    --fr-primary-light:#3a546d;
+    --fr-secondary:#1abc9c;
+    --fr-lighter:#ffffff; 
+}
+
+.bg_primary_dark{
+    background-color: var(--fr-primary-dark);
+}
+
+.bg_primary_light{
+    background-color: var(--fr-primary-light);
+}
+
+.bg_secondary{
+    background-color: var(--fr-secondary);
+}
+
+.bg_lighter{
+    background-color: var(--fr-lighter);
+}
+
+.color_lighter{
+ color: var(--fr-lighter);
+}
+
+.color_dark{
+    color: var(--fr-primary-dark);
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 /* debug */
 .debug {
     border: 1px dashed;
