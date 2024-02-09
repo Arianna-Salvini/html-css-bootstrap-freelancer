@@ -85,6 +85,7 @@ h1{
 
 .img_box{
     width: 50%;
+    max-width: 225px;
     margin: auto;
 }
 
