@@ -47,7 +47,6 @@ h1 {
     .col-2 {
         font-size: 2rem;
         text-align: center;
-        color: var(--fr-primary-dark);
     }
 
     .row {
@@ -58,7 +57,6 @@ h1 {
     & hr {
         border: none;
         height: 3px;
-        background-color: var(--fr-primary-dark);
         opacity: 0.99 !important;
     }
 
@@ -105,9 +103,6 @@ h1 {
 
     }
 }
-
-
-
 
 .about_title,
 form .form_title {
